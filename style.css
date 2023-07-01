@@ -136,6 +136,35 @@ body{
     color: #244454;
   }
 
-
+  svg{
+    transform: scale(1.6);
+    margin: 6%;
+    padding: 1%;
+  }
   
+  @keyframes cambio-color {
+    0% { fill: #090f16; }
+    50% { fill: #f0f0ff; }
+  }
+  
+.twitch{
+  fill: aqua;
+  animation-name: cambio-color;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  }
+
+  .twitch2{
+    fill: #090F16;
+  }
+
+  .twitch3{
+    fill: #f0f0ff;
+  }
+
+  .twitch4{
+    fill:#244454;
+  }
 
