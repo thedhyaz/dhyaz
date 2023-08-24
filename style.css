@@ -15,11 +15,8 @@
 }
 
 body{
-  background-image: url("dhyaz.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+    background: rgb(9,15,22);
+    background: linear-gradient(90deg, rgba(9,15,22,1) 2%, rgba(240,240,255,1) 100%);
 }
 
 .box{
